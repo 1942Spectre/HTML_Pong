@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Pong Game</title>
+	<link rel="stylesheet" type="text/css" href="src/style.css">
+</head>
+    
+
+<body>
+  
+   <div id="countdown" >
+  
+      00:00:00
+         
+        </div>
+        <div>
+	<canvas id ="game" width="1200" height="650"></canvas>
+</div>
+    <div>
+    <button id="playPauseBTN" onclick="playPause()">Play &#9658;</button>
+    <button onclick="stop()" title="Stop" style="height: 36px;;">Stop &#9611;</button>
+    <div id = "score" style="   margin-left: 500px;">Score: 0 | 0 </div>
+    </div>
+  
+    <div id="sound">
+        <audio id="audio">
+            <source src="media/bleep.mp3" type="audio/mpeg">
+        </audio>
+
+        <audio id="audio-2">
+            <source src="media/audio.mp3" type="audio/mpeg">
+        </audio>
+    
+       
+    </div>
+
+    <script src ="src/script.js" charset="utf-8">
+    </script>
+</body>
+</html>

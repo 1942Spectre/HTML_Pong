@@ -1,0 +1,70 @@
+body{
+    background-color:cornflowerblue;
+    background-image: url(https://media.istockphoto.com/photos/racket-table-tennis-with-ping-pong-ball-on-black-backgroundsport-picture-id664878474?k=6&m=664878474&s=170667a&w=0&h=XYPjUDCXjgOnFuX_keeLLdthn3w60LprF42X7gv2Dhc=);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+button{
+    float: left;
+	padding: 10px 25px;
+	text-align: center;
+	cursor: pointer;
+	background: linear-gradient(to right bottom,#273c75,#079992);
+	color: #fff;
+	border-radius: 5px;
+	border:0px; 
+    margin-top: 0px;
+}
+
+#score{
+    margin-left: 600px;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: rgb(172, 0, 163);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    
+}
+#countdown{
+    padding-top: 0%;
+    margin-left: 520px;
+    padding: 10px 25px;
+    cursor: pointer;
+    color: rgb(172, 0, 163);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width:100px;
+    text-align:center;
+    float: middle;
+    
+}
+
+#scoreboard{
+    position: relative; 
+    left: -50%;
+     border: dotted red 1px;
+     align-content: center;
+     align-self: center;
+     float: left;
+     position: fixed;
+    
+}
+
+.score{
+    
+    height: 120;
+    width: 500;
+    border: 5px solid black;
+ 
+    text-align: center;
+  
+    z-index: 100;
+}
+
+#score1{
+    background-color: blue;
+}
+
+#score2{
+    background-color: red;
+}
